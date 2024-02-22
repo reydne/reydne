@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -21,8 +21,7 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link active">About</a></li>
                         <li class="nav__item"><a href="#publications" class="nav__link">Publications</a></li>
                         <li class="nav__item"><a href="#experience" class="nav__link">Experience</li>
                         <li class="nav__item"><a href="#service" class="nav__link">Service</a></li>
@@ -38,18 +37,26 @@
 
         <main class="l-main">
             <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
+            <section class="home bd-grid about__container" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Reydne Bruno</span><br></h1>
 
-                    <a href="#about" class="button">About</a>
+                    <p >
+                        I'm 25 years old and I am Brazilian. I hold a degree in Information Technology from Centro Universitário 
+                        São Miguel and during this course I gained experience in creating and implementing automated 
+                        systems, mobile development with front-end technologies and project management with agile 
+                        methodologies. My investigative personality and interests led me to direct my career towards 
+                        software engineering research. With that, I obtained a Master's Degree in Computer Science at
+                        the Federal University of Pernambuco, where I dedicated myself to studying code comprehension 
+                        and code readability. Now I am a PhD student in Computer Science at the same university.
+                    </p> 
+                    
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/reydne-bruno/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/reydne" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    </div>
                 </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/reydne-bruno/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/reydne" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
+                
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <mask id="mask0" mask-type="alpha">
@@ -63,50 +70,26 @@
                 </div>
             </section>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpeg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'm Reydne Bruno</h2>
-                        <p class="about__text">
-                            I am Reydne Santos, I'm 23 years old and I am Brazilian. I hold a degree in Information Technology from Centro Universitário 
-                            São Miguel and during this course I gained experience in creating and implementing automated 
-                            systems, mobile development with front-end technologies and project management with agile 
-                            methodologies. My investigative personality and interests led me to direct my career towards 
-                            software engineering research. With that, I obtained a Master's Degree in Computer Science at
-                            the Federal University of Pernambuco, where I dedicated myself to studying code comprehension 
-                            and code readability. Now I am a PhD student in Computer Science at the same university.
-                        </p>           
-                    </div>                                   
-                </div>
-            </section>
-
             <!--===== Publications =====-->
             <section class="publications section" id="publications">
                 <h2 class="section-title">Publications</h2>
 
                 <div class="publications__container bd-grid">          
                     <div>   
+
+                        <p class="publications__text">
+                            Oliveira, D., Santos, R., Madeiral, F., Masuhara, H., & Castor, F. (2023). <strong> systematic literature review on the impact of formatting elements on code legibility.</strong> Journal of Systems and Software, 111728.
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0164121223001231" class="publications__text">(Link)</a>
+                        </p>
                         
                         <p class="publications__text">
-                            Oliveira, D., Bruno, R., Madeiral, F., & Castor, F. (2020, September). Evaluating code readability and legibility: An examination of human-centric studies. In 2020 IEEE International Conference on Software Maintenance and Evolution (ICSME) (pp. 348-359). IEEE.
+                            Oliveira, D., Bruno, R., Madeiral, F., & Castor, F. (2020, September). <strong>Evaluating code readability and legibility: An examination of human-centric studies.</strong> In 2020 IEEE International Conference on Software Maintenance and Evolution (ICSME) (pp. 348-359). IEEE.
                             <a href="https://arxiv.org/pdf/2110.00785.pdf" class="publications__text">(Link)</a>
                         </p>
 
                         <p class="publications__text">
-                            SANTOS, R. B. D. (2021). Um estudo sobre definição e avaliação da readability e legibility do código fonte (Master's thesis, Universidade Federal de Pernambuco).
+                            SANTOS, R. B. D. (2021). <strong>Um estudo sobre definição e avaliação da readability e legibility do código fonte</strong> (Master's thesis, Universidade Federal de Pernambuco).
                             <a href="https://repositorio.ufpe.br/handle/123456789/40299">(Link)</a>
-                        </p>
-
-                        <p class="publications__text">
-                            dos Santos, R. B., de Oliveira, G. T. S., de Souza Lopes, C., da Costa, E. S., Freire, Á. B., & de Farias, Í. C. B. (2017). Um Estudo de Três Pilares que Influenciam na Formação de Um Bom Profissional. Revista Eletrônica da Estácio Recife, 3(2).
-                            <a href="reer.emnuvens.com.br">(Link)</a>
                         </p>
 
                     </div>
@@ -119,6 +102,20 @@
                 <h2 class="section-title">Experience</h2>
 
                 <div class="publications__container bd-grid">
+
+                    <h2><b>Teacher's Assistant - Federal University of Pernambuco</b></h2>
+                    <p>Responsible for supporting the teacher of the Educational Software
+                        Engineering course. Helping with planning, teaching activities and
+                        interaction with students.</p>
+
+                    <h2><b>Teaching Internship - Federal University of Pernambuco</b></h2>
+                    <p>Intern student responsible for working effectively in the classroom in the
+                        various stages of the teaching-learning process. The activities to be
+                        performed were: I: planning of teaching interventions; II: the delivery of
+                        theoretical and practical classes, which include the use of innovative
+                        pedagogical methods and techniques; III: participation in partial
+                        evaluation of syllabus, theoretical and practical contents.</p>
+
                     <h2><b>Project Manager - TODXS</b></h2>
                     <p>Responsibilities: Define the delivery timeline, Ensure project deliveries,
                         Inform relevant stakeholders about the project's progress and
